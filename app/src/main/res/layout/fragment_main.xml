@@ -4,15 +4,17 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-    <android.support.design.bottomappbar.BottomAppBar
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_gravity="bottom"/>
-
     <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_notes"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:listitem="@layout/item_note"/>
+
+    <android.support.design.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+    android:backgroundTint="@color/colorAccent"/>
+
+
 </android.support.design.widget.CoordinatorLayout>
